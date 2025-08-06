@@ -21,7 +21,7 @@ cmd({
     // Message content
     const messageText = `
 ⋆﹥━━━━━━━━━━━━━━━﹤⋆
-𝐊 𝐀 𝐕 𝐈   𝐌 𝐃   𝐋 𝐎 𝐆 𝐎
+𝗔 𝗖 𝗜 𝗗   𝕷 𝕾   𝐋 𝐎 𝐆 𝐎
 ⋆﹥━━━━━━━━━━━━━━━﹤⋆
 ➽───────────────❥
 ┃▸𝟭⊷✂ 𝗖𝗿𝗲𝗮𝘁𝗲 𝗮 𝗹𝗼𝗴𝗼 𝗕𝗹𝗮𝗰𝗸 𝗣𝗶𝗻𝗸 𝗽𝗶𝗻𝗸 𝗹𝗼𝗴𝗼 𝘄𝗶𝘁𝗵 𝗺𝗲𝗺𝗯𝗲𝗿𝘀 𝘀𝗶𝗴𝗻𝗮𝘁𝘂𝗿𝗲  
@@ -403,13 +403,13 @@ cmd({
             image: { url: apiResponse.result.download_url },
             caption: "> *ᴘᴏᴡᴇʀᴅ ʙʏ  ᴋᴀᴠɪᴅᴜ ʀᴀꜱᴀɴɢᴀ : )*",
           contextInfo: {
-                mentionedJid: ['94760698006@s.whatsapp.net'], // specify mentioned JID(s) if any
+                mentionedJid: ['94764639572@s.whatsapp.net'], // specify mentioned JID(s) if any
                 groupMentions: [],
                 forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363417070951702@newsletter',
-                    newsletterName: "🎬𝐌𝐎𝐕𝐈𝐄 𝐂𝐈𝐑𝐂𝐋𝐄🎬",
+                    newsletterName: "🎬𝐌𝐎𝐕𝐈𝐄S🎬",
                     serverMessageId: 999
                 }            
             }
@@ -429,7 +429,7 @@ cmd({
 cmd({
   pattern: "logo3",
   desc: "Create Your Logo.",
-  react: '〽️',
+  react: '❗',
   category: "download",
   filename: __filename
 }, async (client, message, options, {
